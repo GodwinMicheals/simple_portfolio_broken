@@ -44,14 +44,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #111111;
     list-style: none;
     transition: all 0.5s ease-out;
     transform: translate3d(100%, 0%, 0); }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #2b2b2b;
     transition: all 0.5s ease-out;
     transform: translate3d(-100%, 0, 0); }
     .menu-branding.show {
