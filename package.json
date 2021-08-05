@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "application server",
   "main": "index.js",
-  "homepage": "https://GodwinMicheals.github.io/simple_portfolio",
+  "homepage": "https://godwinmicheals.github.io/page_portfolio/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist2",
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",

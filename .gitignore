@@ -5,3 +5,6 @@ client/
 dist/
 dist
 /dist
+scss/
+/scss
+scss
