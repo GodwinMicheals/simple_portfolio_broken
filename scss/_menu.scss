@@ -70,7 +70,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, 5);
+    background: darken($primary-color, 20);
     list-style: none;
     @include easeOut(all);
     // slide in from
@@ -84,7 +84,7 @@
 
   // branding side
   &-branding {
-    background: $primary-color;
+    background: darken($primary-color, 10);
     @include easeOut(all);
     // slide in from
     @include entrance(fromLeft);

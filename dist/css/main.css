@@ -44,14 +44,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #4a6b3c;
+    background: #111111;
     list-style: none;
     transition: all 0.5s ease-out;
     transform: translate3d(100%, 0%, 0); }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #557b45;
+    background: #2b2b2b;
     transition: all 0.5s ease-out;
     transform: translate3d(-100%, 0, 0); }
     .menu-branding.show {
@@ -61,7 +61,7 @@
       height: 20rem;
       background: url("../img/portrait_small.jpg");
       border-radius: 50%;
-      border: solid 3px #c1b5ee;
+      border: solid 3px #eece1a;
       background-position: center;
       background-size: cover; }
   .menu .nav-item {
@@ -70,7 +70,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #c1b5ee; }
+      color: #eece1a; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -81,7 +81,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #c1b5ee; }
+      color: #eece1a; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -99,7 +99,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #557b45;
+  background: #444;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -134,7 +134,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(90, 130, 73, 0.5); }
+    background: rgba(73, 73, 73, 0.5); }
   h1.uppercase,
   h2.uppercase,
   h3.uppercase {
@@ -158,7 +158,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #c1b5ee; }
+  color: #eece1a; }
 
 main {
   padding: 4rem;
@@ -168,11 +168,11 @@ main {
     main#home h1 {
       margin-top: 20vh; }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 4rem; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #c1b5ee;
+        color: #eece1a;
         transition: all 0.5s ease-out; }
 
 .about-info {
@@ -186,7 +186,7 @@ main {
   width: 100%;
   margin: auto;
   border-radius: 50%;
-  border: #c1b5ee 3px solid; }
+  border: #eece1a 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -202,16 +202,16 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #608b4e;
+  background: #515151;
   padding: 0.5rem;
-  border-bottom: #c1b5ee 5px solid; }
+  border-bottom: #eece1a 5px solid; }
   .job h6 {
     font-size: 1.2rem; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #3e5a33;
+  background: #2b2b2b;
   color: #fff;
   height: 3rem; }
 
@@ -223,8 +223,8 @@ main {
     width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
-      opacity: 0.5;
-      border-color: #c1b5ee;
+      filter: blur(5px);
+      border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
 .btn, .btn-dark, .btn-light {
@@ -234,7 +234,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #c1b5ee;
+    background: #eece1a;
     color: #000; }
 
 .btn-dark {
@@ -242,7 +242,7 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #dce8d7;
+  background: #c4c4c4;
   color: #333; }
 
 .fab,
@@ -263,7 +263,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #c1b5ee;
+      background: #eece1a;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -339,16 +339,25 @@ html {
 
 @media screen and (min-width: 325px) and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; }
+    margin-top: 20vh;
+    margin-bottom: 5vh; }
+  .classMain {
+    margin: 5vh; }
+    .classMain h1 {
+      margin-bottom: 5vh; }
   .projects {
     grid-template-columns: 1fr; }
   .menu-nav {
     height: 65vh; }
   .menu-branding {
-    height: 35vh; } }
+    height: 35vh; }
+  .nav-item {
+    transform: translate3d(-600px, 0, 0); } }
 
 @media screen and (max-width: 324px) {
   .menu-nav {
     height: 70vh; }
   .menu-branding {
-    height: 30vh; } }
+    height: 30vh; }
+  .nav-item {
+    transform: translate3d(-600px, 0, 0); } }

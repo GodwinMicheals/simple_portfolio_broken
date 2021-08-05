@@ -8,7 +8,7 @@
     border: 3px #fff solid;
 
     &:hover {
-      opacity: 0.5;
+      filter: blur(5px);
       border-color: $secondary-color;
       @include easeOut(all);
     }

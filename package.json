@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "application server",
   "main": "index.js",
+  "homepage": "https://GodwinMicheals.github.io/simple_portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist",
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
@@ -24,9 +26,10 @@
     "concurrently": "^5.3.0",
     "create": "0.0.2",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "jquery": "^3.5.1",
+    "node-sass": "^6.0.1",
     "path": "^0.12.7",
-    "react": "^17.0.1",
-    "node-sass": "^6.0.1"
+    "react": "^17.0.1"
   }
 }

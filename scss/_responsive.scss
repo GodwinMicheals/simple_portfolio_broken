@@ -102,7 +102,15 @@ html {
 // Smartphones
 @include mediaSm {
   main#home h1 {
-    margin-top: 10vh;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+  }
+  .classMain {
+    margin: 5vh;
+    h1 {
+      margin-bottom: 5vh;
+    }
+    //
   }
   .projects {
     grid-template-columns: 1fr;
@@ -114,6 +122,9 @@ html {
   .menu-branding {
     height: 35vh;
   }
+  .nav-item {
+    transform: translate3d(-600px, 0, 0);
+  }
 }
 
 // Smartphones
@@ -124,5 +135,8 @@ html {
 
   .menu-branding {
     height: 30vh;
+  }
+  .nav-item {
+    transform: translate3d(-600px, 0, 0);
   }
 }
