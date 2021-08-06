@@ -1,7 +1,7 @@
 (function($) {
  
     $.fn.countup = function(params) {
- 		// make sure dependency is present
+ 		// make sure dependency is presents
         if (typeof CountUp !== 'function') {
         	console.error('countUp.js is a required dependency of countUp-jquery.js.');
         	return;

@@ -17,7 +17,7 @@ var CountUp = function(target, startVal, endVal, decimals, duration, options) {
 	var self = this;
 	self.version = function () { return '1.9.3'; };
 	
-	// default options
+	// default optionss
 	self.options = {
 		useEasing: true, // toggle easing
 		useGrouping: true, // 1,000,000 vs 1000000

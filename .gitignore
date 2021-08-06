@@ -2,9 +2,9 @@ node_modules
 /client
 client
 client/
-dist/
-dist
-/dist
+dist2/
+dist2
+/dist2
 scss/
 /scss
 scss

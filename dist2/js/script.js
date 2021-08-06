@@ -2,9 +2,9 @@
 let date = document.querySelector('#date');
 const d = new Date;
 date.innerHTML = d.getFullYear();
+// Copyright Year End
 
 //
-
 $(window).on("load", function() {
 
 	$(".loader .inner").fadeOut(500, function() {
@@ -12,10 +12,10 @@ $(window).on("load", function() {
 	});
 
 })
+// 
 
 
-
-
+// 
 $(document).ready(function() {
 
 	$('#slides').superslides({
@@ -163,6 +163,7 @@ $(document).ready(function() {
 	}
 
 });
+// 
 
 
 
